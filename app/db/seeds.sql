@@ -1,3 +1,4 @@
+Use zoomate;
 INSERT INTO zoos 
 (zoo_name, address, city, state, zip_code, phone, contact_name, contact_email)
 values('Cleveland Metroparks Zoo', '3900 Wildlife Way', 'Cleveland', 'OH', 44109, '216-661-6500', 'Elsa Lancaster', 'animalhusbandry@clevelandmetroparks.com'),
@@ -23,7 +24,7 @@ INSERT INTO animals
 (animal_name, zoo_id, species_id, mom_id, dad_id, gender, matable, birth_date, image_URL)
 values
 	('Jackson', 1, 4, 0, 0, 'M', TRUE, '2008-01-01', './public/assets/images/1_AfrElephant_Jackson.jpg'),
-	('Osuma.', 1, 4, 0, 0, 'F', TRUE, '2007-02-06', './public/assets/images/1_AfrElephant_Osuma.jpg'),
+	('Osuma', 1, 4, 0, 0, 'F', TRUE, '2007-02-06', './public/assets/images/1_AfrElephant_Osuma.jpg'),
 	('Shakira', 1, 4, 2, 1, 'F', FALSE, '2018-05-02', './public/assets/images/1_AfrElephant_Shakira.jpg'),
     ('Sumari', 1, 4, 0, 0, 'F', TRUE, '2007-05-23', './public/assets/images/1_AfrElephant_Sumari.jpg'),
 	('Wilbur', 1, 4, 0, 0, 'M', TRUE, '2009-08-13', './public/assets/images/1_AfrElephant_Wilbur.jpg'),
@@ -74,7 +75,7 @@ values
 	('Shawna', 1, 10, 0, 0, 'F', TRUE, '2010-05-24', './public/assets/images/1_tiger_Shawna.jpg'),
 
 	('Adam', 2, 4, 0, 0, 'M', TRUE, '2008-01-01', './public/assets/images/2_AfrElephant_Adam.jpg'),
-	('Alexa.', 2, 4, 0, 0, 'F', TRUE, '2007-02-06', './public/assets/images/2_AfrElephant_Alexa.jpg'),
+	('Alexa', 2, 4, 0, 0, 'F', TRUE, '2007-02-06', './public/assets/images/2_AfrElephant_Alexa.jpg'),
 	('Karina', 2, 4, 0, 0, 'F', TRUE, '2018-05-02', './public/assets/images/2_AfrElephant_Karina.jpg'),
     ('Lucille', 2, 4, 0, 0, 'F', TRUE, '2007-05-23', './public/assets/images/2_AfrElephant_Lucille.jpg'),
 	('Rex', 2, 4, 0, 0, 'M', TRUE, '2009-08-13', './public/assets/images/2_AfrElephant_Rex.jpg'),
