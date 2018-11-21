@@ -23,6 +23,8 @@ Our team worked together on the overall design and then split into two teams, a 
 - Express
 - Express Generator
 - MySQL
+- Github Projects
+- GitKraken
 
 ## Finding a Mate
 From the home page, a user will select the zoo that they work at.  This will display a page containing all the animals in the zoo.  From here, a user can click the "Find Mate" button and a new page will then appear with the best matches for the selected animal.  Criteria for a good mate is based on same species, opposite gender, different zoo, and "matable".  Matable is a true/false value used to determine if the animal is able to breed with another animal.  Once an animal is selected to mate with, the "matable" value will be set to false which prevents them from being selected as a potential mate for another animal.  
