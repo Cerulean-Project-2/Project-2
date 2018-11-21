@@ -21,6 +21,7 @@ Our team worked together on the overall design and then split into two teams, a 
 - Bootstrap Framework 
 - Handlebars
 - Express
+- Express Generator
 - MySQL
 
 ## Finding a Mate
