@@ -18,7 +18,7 @@ Our team worked together on the overall design and then split into two teams, a 
 - Javascript 
 - JQuery 
 - Bootstrap Framework 
-- Hanldebars
+- Handlebars
 - Express
 - MySQL
 
