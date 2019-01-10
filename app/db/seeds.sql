@@ -5,7 +5,7 @@ values('Cleveland Metroparks Zoo', '3900 Wildlife Way', 'Cleveland', 'OH', 44109
 		('Columbus Zoo', '4850 W Powell Road', 'Columbus', 'OH', 43065, '614-645-3400', 'Jack Hannah', 'jhannah@columbuszoo.com'),
 		('Lincoln Park Zoo', '2001 N Clark St', 'Chicago', 'IL', 60614, '312-742-2000', 'Harry Carey', 'hcareylincolnparkzoo.com'),
 		('San Diego Zoo', '2920 Zoo Dr.', 'San Diego', 'CA', 92101, '619-231-1515', 'Elizabeth Waterstone', 'ewaterstone@san-diego-zoo.com'),
-		('The Smithzonian-National Zoo', '3001 Connecticut Ave NW.', 'Washington', 'DC', 20008, '202-633-4888', 'Joseph Fabietz', 'jfabietz@nationalzoo.com');
+		('The Smithsonian-National Zoo', '3001 Connecticut Ave NW.', 'Washington', 'DC', 20008, '202-633-4888', 'Joseph Fabietz', 'jfabietz@nationalzoo.com');
 
 INSERT INTO species 
 (species_name, scientific_name, endangered, gestation_months, mating_age_min, mating_age_max, notes)
