@@ -1,5 +1,5 @@
 // Set up MySQL connection.
-const mysql = require("mysql");
+const mysql = require('mysql');
 
 let connection;
 // Jaws database
@@ -8,16 +8,18 @@ if (process.env.JAWSDB_URL){
 } else {
      connection = mysql.createConnection({
     host: "localhost",
-    port: 3306,
+    port: process.env.db_port || 3306,
     user: "root",
-    password: "",
-    database: "zoo"
+    password: "password",
+    database: "zoomate"
 });
 
 }
 
 // Make connection.
 connection.connect(function(err) {
+
+
   if (err) {
     console.error("error connecting: " + err.stack);
     return;
